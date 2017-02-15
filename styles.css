@@ -8,7 +8,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url('https://static.pexels.com/photos/34676/pexels-photo.jpg');
+  background-image: url('images/landing-bg.jpg');
   background-size: cover;
 }
 
@@ -22,11 +22,11 @@ body {
 #header {
   position: absolute;
   top: 28%;
-  -webkit-animation-delay: 2s;
-     -moz-animation-delay: 2s;
-       -o-animation-delay: 2s;
-      -ms-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 1s;
+     -moz-animation-delay: 1s;
+       -o-animation-delay: 1s;
+      -ms-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-duration: 2s;
      -moz-animation-duration: 2s;
        -o-animation-duration: 2s;
@@ -51,11 +51,11 @@ body {
   right: 0;
   margin: auto;
   width: 200px;
-  -webkit-animation-delay: 4s;
-     -moz-animation-delay: 4s;
-       -o-animation-delay: 4s;
-      -ms-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 3s;
+     -moz-animation-delay: 3s;
+       -o-animation-delay: 3s;
+      -ms-animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-duration: 2s;
      -moz-animation-duration: 2s;
        -o-animation-duration: 2s;
@@ -75,7 +75,7 @@ body {
 }
 
 #projects {
-  padding: 50px 20%;
+  padding: 50px 5%;
   width: 100vw;
   background-color: #282c34;
 }
@@ -87,8 +87,8 @@ body {
 }
 
 #projects .card {
-  max-width: 1000px;
-  min-width: 380px;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 footer {

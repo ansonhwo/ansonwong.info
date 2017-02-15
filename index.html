@@ -24,31 +24,71 @@
       <div id="projects">
         <p class="title"><i class="cubes icon"></i> Projects</p>
         <div class="ui two centered cards">
-          <a class="ui card">
+          <a class="ui card project" data-num="1" href="https://github.com/ansonhwo/subbit" @mouseover="dimmerOn" @mouseleave="dimmerOff">
+            <div class="dimmable image" v-bind:class="{ blurring: dimmed1, dimmed: dimmed1 }">
+              <div class="ui dimmer" v-bind:class="{ visible: dimmed1, active: dimmed1 }">
+                <div class="content">
+                  <div class="center">
+                    <p>Technologies</p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/subbit.png">
+            </div>
             <div class="content">
-              <div class="header">hotspot</div>
+              <div class="header">Subbit</div>
+              <div class="meta">A personal reoccurring monthly transaction aggregator.</div>
+              <div class="description"></div>
+            </div>
+          </a>
+          <a class="ui card project" data-num="2" href="https://github.com/ansonhwo/hotspot" @mouseover="dimmerOn" @mouseleave="dimmerOff">
+            <div class="dimmable image" v-bind:class="{ blurring: dimmed2, dimmed: dimmed2 }">
+              <div class="ui dimmer" v-bind:class="{ visible: dimmed2, active: dimmed2 }">
+                <div class="content">
+                  <div class="center">
+                    <p>Technologies</p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/hotspot.png">
+            </div>
+            <div class="content">
+              <div class="header">Hotspot</div>
               <div class="meta">A website for location & hosting events.</div>
               <div class="description"></div>
             </div>
           </a>
-          <a class="ui card">
+          <a class="ui card project" data-num="3" href="https://github.com/ansonhwo/YouTube" @mouseover="dimmerOn" @mouseleave="dimmerOff">
+            <div class="dimmable image" v-bind:class="{ blurring: dimmed3, dimmed: dimmed3 }">
+              <div class="ui dimmer" v-bind:class="{ visible: dimmed3, active: dimmed3 }">
+                <div class="content">
+                  <div class="center">
+                    <p>Technologies</p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/youtube.png">
+            </div>
             <div class="content">
               <div class="header">YouTube</div>
               <div class="meta">A recreation of the YouTube website.</div>
               <div class="description"></div>
             </div>
           </a>
-          <a class="ui card">
+          <a class="ui card project" data-num="4" href="https://github.com/ansonhwo/connect-four" @mouseover="dimmerOn" @mouseleave="dimmerOff">
+            <div class="dimmable image" v-bind:class="{ blurring: dimmed4, dimmed: dimmed4 }">
+              <div class="ui dimmer" v-bind:class="{ visible: dimmed4, active: dimmed4 }">
+                <div class="content">
+                  <div class="center">
+                    <p>Technologies</p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/connect-four.png">
+            </div>
             <div class="content">
               <div class="header">Connect Four</div>
               <div class="meta">Connect Four, JS style.</div>
-              <div class="description"></div>
-            </div>
-          </a>
-          <a class="ui card">
-            <div class="content">
-              <div class="header">Bankjoy</div>
-              <div class="meta">A recreation of the website, Bankjoy.</div>
               <div class="description"></div>
             </div>
           </a>
@@ -57,10 +97,9 @@
       <div id="contact">
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
   </body>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="main.js"></script>
   <footer>
     Designed by Anson Wong <i class="copyright icon"></i>2017
   </footer>
