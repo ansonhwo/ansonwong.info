@@ -4,19 +4,34 @@ body {
   color: #f8f9e9;
 }
 
-#intro {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-image: url('images/landing-bg.jpg');
-  background-size: cover;
+a,
+a:hover {
+  color: #f8f9e9;
 }
 
-#intro .overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,.5)
+#contact {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #240023;
+  text-align: center;
+}
+
+#contact a:hover {
+  color: #282c34;
+}
+
+#contact .catch {
+  margin-bottom: 15px;
+  font-size: 30pt;
+}
+
+#contact .icons {
+  font-size: 14pt;
+}
+
+#contact .footer {
+  margin-top: 50px;
+  font-size: 12pt;
 }
 
 #header {
@@ -44,6 +59,21 @@ body {
   font-size: 20pt;
 }
 
+#intro {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('images/landing-bg.jpg');
+  background-size: cover;
+}
+
+#intro .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5)
+}
+
 #intro .more {
   position: absolute;
   bottom: 40px;
@@ -66,18 +96,23 @@ body {
   text-align: center;
 }
 
-#intro .more > i {
+#intro .more > a {
   -webkit-animation-iteration-count: infinite;
      -moz-animation-iteration-count: infinite;
        -o-animation-iteration-count: infinite;
       -ms-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+     -moz-animation-duration: 4s;
+       -o-animation-duration: 4s;
+      -ms-animation-duration: 4s;
+          animation-duration: 4s;
 }
 
 #projects {
   padding: 50px 5%;
   width: 100vw;
-  background-color: #282c34;
+  background-color: #240023;
 }
 
 #projects .title {
@@ -89,12 +124,21 @@ body {
 #projects .card {
   min-width: 400px;
   max-width: 600px;
+  text-align: center;
 }
 
-footer {
-  margin: 10px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 12pt;
-  color: #000;
+#projects .desc {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14pt;
+}
+
+#projects .desc .header {
+  margin-bottom: 5px;
+}
+
+#projects .label {
+  font-weight: 300;
 }

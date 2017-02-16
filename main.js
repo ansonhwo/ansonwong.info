@@ -1,3 +1,8 @@
+smoothScroll.init({
+  easing: 'easeInOutQuad',
+  speed: 1000
+})
+
 const Projects = new Vue ({
 
   el: '#projects',

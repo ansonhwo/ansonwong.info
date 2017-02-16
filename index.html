@@ -18,7 +18,7 @@
         </div>
         <div class="more animated fadeIn">
           <p>Projects and More</p>
-          <i class="chevron down icon animated pulse"></i>
+          <a data-scroll href="#projects" class="animated flash"><i class="chevron circle down large icon"></i></a>
         </div>
       </div>
       <div id="projects">
@@ -29,13 +29,21 @@
               <div class="ui dimmer" v-bind:class="{ visible: dimmed1, active: dimmed1 }">
                 <div class="content">
                   <div class="center">
-                    <p>Technologies</p>
+                    <div class="ui blue big labels">
+                      <div class="ui label">React/Redux</div>
+                      <div class="ui label">Node.js (Express)</div>
+                      <div class="ui label">Semantic-UI</div>
+                      <div class="ui label">Knex.js (PostgreSQL)</div>
+                      <div class="ui label">Browserify</div>
+                      <div class="ui label">Babel</div>
+                      <div class="ui label">Plaid API</div>
+                    </div>
                   </div>
                 </div>
               </div>
               <img src="images/subbit.png">
             </div>
-            <div class="content">
+            <div class="content desc">
               <div class="header">Subbit</div>
               <div class="meta">A personal reoccurring monthly transaction aggregator.</div>
               <div class="description"></div>
@@ -46,13 +54,22 @@
               <div class="ui dimmer" v-bind:class="{ visible: dimmed2, active: dimmed2 }">
                 <div class="content">
                   <div class="center">
-                    <p>Technologies</p>
+                    <div class="ui blue big labels">
+                      <div class="ui label">Vue.js</div>
+                      <div class="ui label">Google Distance Matrix API</div>
+                      <div class="ui label">Google Places Library</div>
+                      <div class="ui label">Semantic-UI</div>
+                      <div class="ui label">Node.js (Express)</div>
+                      <div class="ui label">Knex.js (PostgreSQL)</div>
+                      <div class="ui label">Flatpickr.js</div>
+                      <div class="ui label">Moment.js</div>
+                    </div>
                   </div>
                 </div>
               </div>
               <img src="images/hotspot.png">
             </div>
-            <div class="content">
+            <div class="content desc">
               <div class="header">Hotspot</div>
               <div class="meta">A website for location & hosting events.</div>
               <div class="description"></div>
@@ -63,13 +80,19 @@
               <div class="ui dimmer" v-bind:class="{ visible: dimmed3, active: dimmed3 }">
                 <div class="content">
                   <div class="center">
-                    <p>Technologies</p>
+                    <div class="ui blue big labels">
+                      <div class="ui label">Javascript</div>
+                      <div class="ui label">HTML5</div>
+                      <div class="ui label">CSS3</div>
+                      <div class="ui label">Balsamiq3</div>
+                      <div class="ui label">OOP</div>
+                    </div>
                   </div>
                 </div>
               </div>
               <img src="images/youtube.png">
             </div>
-            <div class="content">
+            <div class="content desc">
               <div class="header">YouTube</div>
               <div class="meta">A recreation of the YouTube website.</div>
               <div class="description"></div>
@@ -80,13 +103,20 @@
               <div class="ui dimmer" v-bind:class="{ visible: dimmed4, active: dimmed4 }">
                 <div class="content">
                   <div class="center">
-                    <p>Technologies</p>
+                    <div class="ui blue big labels">
+                      <div class="ui label">Vue.js</div>
+                      <div class="ui label">Redux</div>
+                      <div class="ui label">Javascript</div>
+                      <div class="ui label">HTML5</div>
+                      <div class="ui label">CSS3</div>
+                      <div class="ui label">Algorithm Challenge</div>
+                    </div>
                   </div>
                 </div>
               </div>
               <img src="images/connect-four.png">
             </div>
-            <div class="content">
+            <div class="content desc">
               <div class="header">Connect Four</div>
               <div class="meta">Connect Four, JS style.</div>
               <div class="description"></div>
@@ -95,12 +125,17 @@
         </div>
       </div>
       <div id="contact">
+        <p class="catch">Let's create something together.</p>
+        <div class="icons">
+          <a href="https://github.com/ansonhwo"><i class="github huge icon"></i></a>
+          <a href="https://www.linkedin.com/in/ahwongcc"><i class="linkedin square huge icon"></i></a>
+          <a href="mailto:ahwongcc@gmail.com"><i class="mail outline huge icon"></i></a>
+        </div>
+        <div class="footer">Designed by Anson Wong <i class="copyright icon"></i>2017</div>
       </div>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script src="main.js"></script>
-  <footer>
-    Designed by Anson Wong <i class="copyright icon"></i>2017
-  </footer>
 </html>
