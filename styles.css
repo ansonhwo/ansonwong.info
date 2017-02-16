@@ -25,6 +25,10 @@ a:hover {
   font-size: 30pt;
 }
 
+#contact .email {
+  font-size: 16pt;
+}
+
 #contact .icons {
   font-size: 14pt;
 }
